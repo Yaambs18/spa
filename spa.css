@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 20px;  /* 1rem will equal this now */
+    line-height: 1.6;
+    font-family: sans-serif; /* add google fonts */
+}
+
+.page{
+    display: none;
+    width: 100%;
+    min-height: 100%; 
+    position: fixed;  
+    padding: 1rem 2rem;
+}
+.active{
+    display: block; 
+}
+#home{
+    background-color: hsl(9, 80%, 57%);
+}
+#contact{
+    background-color: hsl(103, 91%, 54%);
+}
+#about{
+    background-color: hsl(240, 86%, 53%);
+}
+h1{
+    font-size: 2rem;
+    font-weight: 600;
+    transition: all 0.4s;
+}

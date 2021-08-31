@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>A Single Page Application</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="spa.css">
+</head>
+<body>
+    <main>
+        <div class="page active" id="home">
+            <h1>Home</h1>
+            <ol>
+                <li><a href="#" data-target="home" class="nav-link">HOME</a></li>
+                <li><a href="#" data-target="contact" class="nav-link">CONTACT</a></li>
+                <li><a href="#" data-target="about" class="nav-link">ABOUT</a></li>
+            </ol>
+        </div>
+        
+        <div class="page" id="contact">
+            <h1>List</h1>
+            <ol>
+                <li><a href="#" data-target="home" class="nav-link">HOME</a></li>
+                <li><a href="#" data-target="contact" class="nav-link">CONTACT</a></li>
+                <li><a href="#" data-target="about" class="nav-link">ABOUT</a></li>
+            </ol>
+        </div>
+        
+        <div class="page" id="about">
+            <h1>Detail</h1>
+            <ol>
+                <li><a href="#" data-target="home" class="nav-link">HOME</a></li>
+                <li><a href="#" data-target="contact" class="nav-link">CONTACT</a></li>
+                <li><a href="#" data-target="about" class="nav-link">ABOUT</a></li>
+            </ol>
+        </div>
+        
+    </main>
+    <script src="spa.js"></script>
+</body>
+</html>
